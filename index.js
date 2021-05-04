@@ -5,11 +5,7 @@ const Recipe = require("./models/Recipe.model");
 // Import of the data from './data.json'
 const data = require("./data");
 
-//const MONGODB_URI = "mongodb://localhost:27017/recipe-app";
-// const MONGODB_URI =
-//   "mongodb+srv://franciscoLabs:321123@cluster0.ivf5f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const MONGODB_URI =
-  "mongodb+srv://franciscoLabs:321123@cluster0.ivf5f.mongodb.net/IronHackLabs?authSource=admin&replicaSet=atlas-ag4p2h-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
+const MONGODB_URI = "mongodb://localhost:27017/recipe-app";
 
 // Connection to the database "recipe-app"
 mongoose
